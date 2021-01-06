@@ -1,18 +1,18 @@
 class NotImplementedFraction(override val numerator: Int, override val denominator: Int) : IFraction {
 
-    override fun plus(other: IFraction?): IFraction? {
+    override fun plus(other: IFraction): IFraction {
         throw UnsupportedOperationException()
     }
 
-    override fun minus(other: IFraction?): IFraction? {
+    override fun minus(other: IFraction): IFraction {
         throw UnsupportedOperationException()
     }
 
-    override fun times(other: IFraction?): IFraction? {
+    override fun times(other: IFraction): IFraction {
         throw UnsupportedOperationException()
     }
 
-    override fun dividedBy(other: IFraction?): IFraction? {
+    override fun div(other: IFraction): IFraction {
         throw UnsupportedOperationException()
     }
 }

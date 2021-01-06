@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestAddition" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-01-06T16:28:37" hostname="Dannys-MacBook-Pro.local" time="0.013">
+  <properties/>
+  <testcase name="testTimesNormalisation" classname="TestAddition" time="0.005"/>
+  <testcase name="testDividedBySimple" classname="TestAddition" time="0.0"/>
+  <testcase name="testMinusNormalisation" classname="TestAddition" time="0.005"/>
+  <testcase name="testTimesSimple" classname="TestAddition" time="0.0"/>
+  <testcase name="testMinusSimple" classname="TestAddition" time="0.0"/>
+  <testcase name="testNormalisation" classname="TestAddition" time="0.0"/>
+  <testcase name="testDividedByNormalisation" classname="TestAddition" time="0.0"/>
+  <testcase name="testSimple" classname="TestAddition" time="0.0"/>
+  <system-out><![CDATA[TEST
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

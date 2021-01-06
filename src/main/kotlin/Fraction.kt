@@ -1,8 +1,7 @@
 class Fraction(
     override val numerator: Int,
     override val denominator: Int,
-
-    ) : IFraction {
+) : IFraction {
 
     init {
         if (denominator == 0) {
@@ -32,7 +31,7 @@ class Fraction(
         return reduceFraction(numerator * other.denominator, denominator * other.numerator)
     }
 
-    companion object{
+    companion object {
 
         private fun reduceFraction(numerator: Int, denominator: Int): Fraction {
             val d: Int = greatestCommonDivisor(numerator, denominator)
